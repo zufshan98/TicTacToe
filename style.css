@@ -30,14 +30,12 @@ body {
 .game {
     height: 57vmin;
     width: 57vmin;
-    /*background-color: #283618;*/
     background-color: black;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 1.5vmin;
-    /*box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);*/
 }
 
 .box {

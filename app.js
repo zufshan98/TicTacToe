@@ -32,7 +32,6 @@ boxes.forEach((box) => {
             box.innerText = "O";
             turnO = false;
         } else {
-            box.style.color = "#780000";
             box.innerText = "X";
             turnO = true;
         }

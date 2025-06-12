@@ -7,7 +7,7 @@ body {
     padding-top: 1rem;
     background-color: #606c38;
     color: #fefae0;
-    font-size: x-large;
+    font-size: larger;
     text-align: center;
 }
 
@@ -16,19 +16,20 @@ body {
     margin-top: 1rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    height: 65vh;
-    width: 150vh;
+    height: 65vmin;
+    width: 75vmin;
     display: flex;
     justify-content: center;
     align-self: center;
     align-items: center;
     justify-self: center;
+    border-radius: 2rem;
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
 }
 
 .game {
-    height: 60vmin;
-    width: 60vmin;
+    height: 57vmin;
+    width: 57vmin;
     /*background-color: #283618;*/
     background-color: black;
     display: flex;
@@ -40,22 +41,32 @@ body {
 }
 
 .box {
-    height: 19vmin;
-    width: 19vmin;
+    height: 18vmin;
+    width: 18vmin;
     border: none;
     font-size: 8vmin;
     background-color: #606c38;
-    color: #dda15e;
+    color: #fefae0;
+}
+
+.box:hover {
+    cursor: pointer;
 }
 
 #reset-btn, #newgame-btn {
-    margin-top: 1rem;
-    padding: 1rem;
-    font-size: 1.25rem;
+    height: 10vmin;
+    width: 25vmin;
+    padding: 0.8rem;
+    font-size: 1.15rem;
     background-color: #bc6c25;
     color: white;
     border-radius: 1rem;
     border: none;
+}
+
+#reset-btn:hover, #newgame-btn:hover {
+    cursor: pointer;
+    transform: scale(1.05);
 }
 
 #newgame-btn {
@@ -64,14 +75,14 @@ body {
 
 #msg {
     color: #fefae0;
-    font-size: 8vmin;
+    font-size: 5vmin;
     justify-self: center;
     padding-bottom: 1rem;
 }
 
 .msg-container {
     position: absolute;
-    height: 50vmin;
+    height: 40vmin;
     width: 70vmin;
     background-color: #bc6c25;
     justify-self: center;
@@ -81,4 +92,23 @@ body {
 
 .hide {
     display: none;
+}
+
+#game-footer {
+    display: flex;
+    height: 15vmin;
+    width: 75vmin;
+    justify-self: center;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+#player-info {
+    height: 10vmin;
+    width: 30vmin;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
 }

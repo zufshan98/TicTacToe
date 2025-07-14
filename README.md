@@ -7,7 +7,7 @@ This is a responsive **Tic Tac Toe** game built using **HTML, CSS, and Vanilla J
 ## 🚀 Live Demo
 
 You can play the game live here:  
-**[Link coming soon — deploy via GitHub Pages or Netlify]**
+https://zufshan98.github.io/TicTacToe/
 
 ---
 

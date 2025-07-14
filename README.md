@@ -49,7 +49,7 @@ if (pos1Val === pos2Val && pos2Val === pos3Val) {
 
 ## 📷 Screenshots
 
-*(Add screenshots of your game UI here after deployment)*
+![Game Screenshot](./tictactoe.png)
 
 ---
 
